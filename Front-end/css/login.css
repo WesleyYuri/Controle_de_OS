@@ -1,0 +1,61 @@
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+img {
+    position: absolute;
+    width: 314px;
+    height: 114px;
+    left: 543px;
+    top: 51px;
+}
+#divLogin {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    margin-left: 500px;
+    margin-top: 185px;
+
+    border: 2px solid #2657A1;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+p{
+    line-height: 21px;
+    text-align: center;
+}
+label {
+    position: relative;
+    padding-left: 50px;
+}
+input {
+    position: relative;
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+                    
+    border: 2px solid #2657A1;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#btnSubmit {
+    position: relative;
+    margin-left: 125px;
+    width: 150px;
+    height: 40px;
+}
+input[type='submit'] {
+    font-family: Roboto;
+    color: #2657A1;
+}
+button {
+    position: relative;
+    border: none;
+    background: none;
+    margin-left: 125px;
+    margin-top: 25px;
+    font-family: Roboto;
+    color: #2657A1;
+}
