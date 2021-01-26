@@ -26,6 +26,6 @@
 
 ```bash
 # 1º Clone o repositório
-git clone https://github.com/aldotheapache1/Sistema-de-controle-Loja.git
+git clone https://github.com/WesleyYuri/Controle_de_OS.git
 ```
 
