@@ -21,7 +21,7 @@
 ## 🚀 Tecnologias
 
 ## 💻 Projeto
-
+CONTROLEos é um sistema, que auxilia profissionais no trabalho com ordens de serviço, nele o administrador responsável pelo trabalho recebe as ordens de serviço dos usuários comuns. e com isso responde a ordem de serviço.
 ## 🌐 Funcionamento
 
 ```bash
