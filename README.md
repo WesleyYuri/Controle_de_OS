@@ -21,7 +21,7 @@
 ## 🚀 Tecnologias
 
 ## 💻 Projeto
-CONTROLEos é um sistema, que auxilia profissionais no trabalho com ordens de serviço, nele o administrador responsável pelo trabalho recebe as ordens de serviço dos usuários comuns. e com isso responde a ordem de serviço.
+CONTROLEos é um sistema, que auxilia profissionais no trabalho com ordens de serviço, nele o administrador responsável pelo trabalho recebe as ordens de serviço dos usuários comuns. e com isso responde a ordem de serviço. Link do design do projeto no Figma: https://www.figma.com/file/3hj2Qvdb1odjTwmAqgG5nc/Controle_de_OS?node-id=0%3A1
 ## 🌐 Funcionamento
 
 ```bash
