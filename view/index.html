@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ControleOS</title>
+
+        <!-- import css -->
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        
+        <!-- import font Roboto -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <style>
+            #navbar {
+                position: fixed;
+                width: 1400px;
+                height: 75px;
+                background-color: #5994FF;
+                left: 0px;
+                top: 0px;
+            }
+
+            #logo {
+                width: 200px;
+                height: 58px;
+                margin-left: 4px;
+                margin-top: 15px;
+            }
+
+            #divBody {
+                padding-top: 90px;
+            }
+
+            #btnNewOR {
+                position: relative;
+                width: 100px;
+                height: 30px;
+                                
+                border: 2px solid #2657A1;
+                box-sizing: border-box;
+                border-radius: 10px;
+
+                font-family: Roboto;
+                color: #2657A1;
+            }
+
+            .btnEditOR {
+                position: relative;
+                width: 100px;
+                height: 30px;
+                                
+                border: 2px solid #cccc00;
+                box-sizing: border-box;
+                border-radius: 10px;
+
+                font-family: Roboto;
+                color:#cccc00;
+            }
+
+            .btnDeleteOR {
+                position: relative;
+                width: 100px;
+                height: 30px;
+                                
+                border: 2px solid #ff0000;
+                box-sizing: border-box;
+                border-radius: 10px;
+
+                font-family: Roboto;
+                color: #ff0000;
+            }
+
+            .content-table {
+                border-collapse: collapse;
+                margin: 25px 0;
+                font-size: 15px;
+                min-width: 400px;
+                border-radius: 5px 5px 0 0;
+                overflow: hidden;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            }
+
+            .content-table thead tr{
+                background-color:#2657A1;
+                color: white;
+                text-align: left;
+                font-weight: bold;
+            }
+
+            .content-table th,
+            .content-table td {
+                padding: 12px 15px;
+            }
+            
+            .content-table tbody tr {
+                border-bottom: 1px solid #dddddd;
+            }
+
+            .content-table tbody tr:nth-last-of-type(even) {
+                background-color: #f3f3f3;
+            }
+
+            .content-table tbody tr:last-of-type {
+                border-bottom: 3px solid #2657A1;
+            }
+
+            .content-table tbody tr.active-row {
+                font-weight: bold;
+                color: #2657A1;
+            }
+        </style>    
+    </head>
+    <body>
+        <div id='navbar'>
+            <img id='logo' src='images/logo.svg' />
+        </div>
+        <div id='divBody'>
+            <a href='#'><button id='btnNewOR'>Nova OS</button></a>
+        
+            <table class='content-table'>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>DESCRIÇÃO</th>
+                        <th>DATA DE ENTRADA</th>
+                        <th>DATA LIMITE</th>
+                        <th>DELEGAÇÃO</th>
+                        <th>EDITAR</th>
+                        <th>EXCLUIR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="active-row">
+                        <td>0001</td>
+                        <td>Teste</td>
+                        <td>28/01/2021</td>
+                        <td>29/01/2021</td>
+                        <td>Yuri</td>
+                        <td><a href='#'><button class='btnEditOR'>EDITAR</button></a></td>
+                        <td><a href='#'><button class='btnDeleteOR'>DELETAR</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>0002</td>
+                        <td>Teste2</td>
+                        <td>28/01/2021</td>
+                        <td>29/01/2021</td>
+                        <td>Gian</td>
+                        <td><a href='#'><button class='btnEditOR'>EDITAR</button></a></td>
+                        <td><a href='#'><button class='btnDeleteOR'>DELETAR</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>0003</td>
+                        <td>Teste3</td>
+                        <td>28/01/2021</td>
+                        <td>29/01/2021</td>
+                        <td>Flávio</td>
+                        <td><a href='#'><button class='btnEditOR'>EDITAR</button></a></td>
+                        <td><a href='#'><button class='btnDeleteOR'>DELETAR</button></a></td>
+                    </tr>
+                    <tr>
+                        <td>0004</td>
+                        <td>Teste4</td>
+                        <td>28/01/2021</td>
+                        <td>29/01/2021</td>
+                        <td>Kewen</td>
+                        <td><a href='#'><button class='btnEditOR'>EDITAR</button></a></td>
+                        <td><a href='#'><button class='btnDeleteOR'>DELETAR</button></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

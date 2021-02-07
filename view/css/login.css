@@ -8,8 +8,8 @@ img {
     position: absolute;
     width: 314px;
     height: 114px;
-    left: 543px;
-    top: 51px;
+    margin-left: 543px;
+    margin-top: 51px;
 }
 #divLogin {
     position: absolute;
@@ -45,12 +45,10 @@ input {
     margin-left: 125px;
     width: 150px;
     height: 40px;
-}
-input[type='submit'] {
     font-family: Roboto;
     color: #2657A1;
 }
-button {
+#btnForgotPassword {
     position: relative;
     border: none;
     background: none;
