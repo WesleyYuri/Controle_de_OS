@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="ControleOS" title="ControleOS" src="images/logo.jpeg" />
+    <img alt="ControleOS" title="ControleOS" src="view/images/logo.jpeg" />
 </h1>
 
 <p align="center">
